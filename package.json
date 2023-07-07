@@ -1,0 +1,30 @@
+{
+  "name": "d4-tracker",
+  "version": "1.0.0",
+  "description": "Bot para fazer track de eventos do D4",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./main.js",
+    "dev": "nodemon ./main.js",
+    "load": "node ./main.js load"
+  },
+  "author": "GuillePinho",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/rest": "^1.7.1",
+    "axios": "^1.4.0",
+    "cron": "^2.3.1",
+    "discord-api-types": "^0.37.41",
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.20"
+  }
+}
